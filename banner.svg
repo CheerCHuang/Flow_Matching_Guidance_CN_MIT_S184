@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-label="MIT 6.S184 Flow Matching and Diffusion Models 学习笔记">
+  <rect width="1200" height="320" fill="#fcfcfa"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" fill="none" stroke="#c7c6bb" stroke-width="1"/>
+  <!-- 背景：一组淡的等高线椭圆，暗示数据分布 -->
+  <g fill="none" stroke="#dcdcd4" stroke-width="1.5">
+    <ellipse cx="980" cy="240" rx="150" ry="46"/>
+    <ellipse cx="980" cy="240" rx="104" ry="31"/>
+    <ellipse cx="980" cy="240" rx="60" ry="17"/>
+  </g>
+  <!-- 主视觉：同一起点出发的两条路径，一条平滑（ODE/流），一条带噪声（SDE/扩散） -->
+  <line x1="70" y1="262" x2="1130" y2="262" stroke="#c7c6bb" stroke-width="2"/>
+  <path d="M70,240 L97,240 L124,239 L150,239 L175,237 L199,236 L223,234 L246,233 L268,230 L290,228 L311,226 L332,223 L352,220 L372,217 L391,213 L409,210 L427,206 L444,203 L461,199 L478,195 L494,191 L510,187 L525,183 L540,179 L555,174 L569,170 L583,166 L597,162 L610,157 L623,153 L636,149 L649,145 L661,141 L674,137 L686,133 L697,130 L709,126 L721,123 L732,119 L744,116 L755,113 L766,110 L778,108 L789,106 L800,103 L811,102 L823,100 L834,99 L845,97 L857,97 L868,96 L880,96 L1100,96" fill="none" stroke="#34507e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70,240 L97,240 L124,239 L150,239 L175,237 L199,236 L223,234 L246,233 L268,230 L290,228 L311,226 L332,223 L352,220 L372,217 L391,213 L409,210 L427,206 L444,203 L461,199 L478,195 L494,191 L510,187 L525,183 L540,179 L555,174 L569,170 L583,166 L597,162 L610,157 L623,153 L636,149 L649,145 L661,141 L674,137 L686,133 L697,130 L709,126 L721,123 L732,119 L744,116 L755,113 L766,110 L778,108 L789,106 L800,103 L811,102 L823,100 L834,99 L845,97 L857,97 L868,96 L880,96 L1100,96" fill="none" stroke="#fcfcfa" stroke-width="2.4" stroke-dasharray="14 18" stroke-linecap="round"/>
+  <path id="sde" d="M70,232 C 330,232 430,96 760,96 L 1100,96" fill="none" stroke="none"/>
+  <path d="M70,240 L97,240 L124,239 L150,237 L175,235 L199,232 L223,233 L246,237 L268,230 L290,225 L311,227 L332,225 L352,222 L372,212 L391,211 L409,213 L427,199 L444,196 L461,186 L478,182 L494,178 L510,175 L525,170 L540,174 L555,173 L569,168 L583,153 L597,149 L610,151 L623,151 L636,136 L649,136 L661,129 L674,126 L686,136 L697,125 L709,124 L721,127 L732,118 L744,115 L755,113 L766,111 L778,102 L789,103 L800,108 L811,97 L823,101 L834,99 L845,96 L857,100 L868,98 L880,96 L1100,96" fill="none" stroke="#9a2d1e" stroke-width="3" stroke-linejoin="round" opacity="0.85"/>
+  <circle cx="70" cy="240" r="9" fill="#fcfcfa" stroke="#1a1a18" stroke-width="3"/>
+  <circle cx="1100" cy="96" r="10" fill="#34507e"/>
+  <circle cx="1100" cy="96" r="15" fill="none" stroke="#9a2d1e" stroke-width="2.4" opacity="0.7"/>
+  <!-- 文字 -->
+  <text x="70" y="78" font-family="Georgia, 'Times New Roman', 'Songti SC', 'STSong', serif" font-size="20" letter-spacing="6" fill="#8a857a">MIT 6.S184 · 2025</text>
+  <text x="70" y="136" font-family="Georgia, 'Times New Roman', 'Songti SC', 'STSong', serif" font-size="52" font-weight="bold" fill="#1a1a18">流匹配与扩散模型</text>
+  <text x="70" y="178" font-family="Georgia, 'Times New Roman', 'Songti SC', 'STSong', serif" font-size="26" fill="#5a574e">学习笔记 · 五讲 · 网页文章与 PDF</text>
+  <!-- 图注 -->
+  <text x="70" y="292" font-family="Georgia, serif" font-size="17" fill="#8a857a">t = 0</text>
+  <text x="1100" y="292" text-anchor="end" font-family="Georgia, serif" font-size="17" fill="#8a857a">t = 1</text>
+  <text x="700" y="292" font-family="Georgia, serif" font-size="17" fill="#8a857a">同一条概率路径：流（蓝）与扩散（红）</text>
+</svg>
