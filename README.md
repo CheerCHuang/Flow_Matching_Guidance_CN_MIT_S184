@@ -30,8 +30,6 @@
 
 - 笔记为个人整理，原文对应课程讲义 *Flow Matching and Diffusion Models*（MIT, 2025）；文中讲义截图与算法截图的版权归课程作者所有，仅用于个人学习。
 
-- 网页文章由 [beautiful-article](https://github.com/ConardLi/garden-skills) 生成，主题为 knuth（学术预印本风格）。
-
 ---
 
 <div align="center">
